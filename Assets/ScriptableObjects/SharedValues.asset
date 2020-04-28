@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266497c6afb14e14eb06b39e9eeae8ab, type: 3}
+  m_Name: SharedValues
+  m_EditorClassIdentifier: 
+  slotsResources:
+  - type: 0
+    sprite: {fileID: 21300000, guid: c63670c5ea71c27419ce87e97e069b29, type: 3}
+    background: {fileID: 21300000, guid: e5fb3c62d6b22e548ba9a22281a6ba35, type: 3}
+  - type: 1
+    sprite: {fileID: 21300000, guid: f8070f37ab7fbfb4f84955e9830104a7, type: 3}
+    background: {fileID: 21300000, guid: 51c53eba8a7abc9488d4df593709d75d, type: 3}
+  - type: 2
+    sprite: {fileID: 21300000, guid: 91390b648e3b4ef449464a1d772fb694, type: 3}
+    background: {fileID: 21300000, guid: 0cd7db23366801948b1a6584a82651a3, type: 3}
+  - type: 3
+    sprite: {fileID: 21300000, guid: 370a9e6f16ac6b34ca7d6c7d500ad554, type: 3}
+    background: {fileID: 21300000, guid: 07c998b77a3b9fb468b5f318559c98cd, type: 3}
+  - type: 4
+    sprite: {fileID: 21300000, guid: c35b0d4c81dbc15458d3f294fcf52f21, type: 3}
+    background: {fileID: 21300000, guid: d05f6fa7cf1fc6d4da758d1bf3becd5d, type: 3}
+  - type: 5
+    sprite: {fileID: 21300000, guid: d2e956d8e7670a642a387b7bb71907f9, type: 3}
+    background: {fileID: 21300000, guid: 5b69112a2bcbfc44cb221ed9b673c8bb, type: 3}
+  - type: 6
+    sprite: {fileID: 21300000, guid: 57fc69eb25b922e4999d85724444f79d, type: 3}
+    background: {fileID: 21300000, guid: dea8fbd942b2b82488962c7a55022b62, type: 3}
+  - type: 7
+    sprite: {fileID: 21300000, guid: b69755a43e64b07418ff270af24e7f88, type: 3}
+    background: {fileID: 21300000, guid: 8e93032c543b7b54f9b207aed2659b62, type: 3}
+  slotItemPrefab: {fileID: 7020287054123399991, guid: 1aaf4dad72d8a624090e642485520d83,
+    type: 3}
+  holder: {fileID: 0}
+  dimension:
+    x: 5
+    y: 4
+  offset: {x: -440, y: 400}
+  spacing: {x: 220, y: -205}
+  bottomBoundary: -420
+  topPosition: 400
+  delayAmongColumnMoveRange: {x: 0.1, y: 0.3}
+  speedRange: {x: 4500, y: 5500}
+  decreaseSpeedAmount: 15
+  minSpeed: 200
+  minDistance: 0.1

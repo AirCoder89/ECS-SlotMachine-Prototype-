@@ -1,0 +1,10 @@
+
+using Entitas;
+using Entitas.CodeGeneration.Attributes;
+
+[Game]
+public class GridPositionComponent: IComponent
+{
+      [EntityIndex]
+      public Dimension value;
+}

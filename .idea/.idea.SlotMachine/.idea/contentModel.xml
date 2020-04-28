@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\AirCoder\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\AirCoder\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_SlotMachine.74481319.00" t="ExcludeRecursive" />
+    <e p="E:\unity Projects\SlotMachine\SlotMachine" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Entitas" t="Include">
+          <e p="Compile.cs" t="Include" />
+          <e p="LICENSE.txt" t="Include" />
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Sirenix" t="Include">
+            <e p="Odin Inspector" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="AssemblyImportSettingsAutomation.cs" t="Include" />
+                  <e p="BuildAOTAutomation.cs" t="Include" />
+                  <e p="EnsureOdinInspectorDefine.cs" t="Include" />
+                  <e p="FixBrokenUnityObjectWrapperDrawer.cs" t="Include" />
+                  <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" t="Include" />
+                  <e p="SyncListDrawer.cs" t="Include" />
+                  <e p="SyncVarAttributeDrawer.cs" t="Include" />
+                  <e p="Vector2IntMinMaxAttributeDrawer.cs" t="Include" />
+                  <e p="VectorIntDrawers.cs" t="Include" />
+                  <e p="VectorIntPropertyResolvers.cs" t="Include" />
+                </e>
+                <e p="SerializedNetworkBehaviour.cs" t="Include" />
+                <e p="Sirenix.OdinInspector.CompatibilityLayer.asmdef" t="Include" />
+                <e p="VectorIntFormatters.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ButtonEventHandler.cs" t="Include" />
+          <e p="Components" t="Include">
+            <e p="CanvasPositionComponent.cs" t="Include" />
+            <e p="Destroyed.cs" t="Include" />
+            <e p="GridPositionComponent.cs" t="Include" />
+            <e p="InterpolationCompleteComponent.cs" t="Include" />
+            <e p="ItemIdComponent.cs" t="Include" />
+            <e p="MoveCompleteComponent.cs" t="Include" />
+            <e p="MoveHelperComponent.cs" t="Include" />
+            <e p="OnMoveComponent.cs" t="Include" />
+            <e p="OutOfRangeComponent.cs" t="Include" />
+            <e p="PayLinesComponent.cs" t="Include" />
+            <e p="PayLinesTriesComponent.cs" t="Include" />
+            <e p="SharedValComponent.cs" t="Include" />
+            <e p="TestingComponent.cs" t="Include" />
+            <e p="TranslateToPositionComponent.cs" t="Include" />
+            <e p="TypeComponent.cs" t="Include" />
+            <e p="ViewComponent.cs" t="Include" />
+            <e p="VisibleComponent.cs" t="Include" />
+          </e>
+          <e p="GameController.cs" t="Include" />
+          <e p="GameExtension.cs" t="Include" />
+          <e p="PayLines.cs" t="Include" />
+          <e p="PayLinesTrie" t="Include">
+            <e p="PayLinesTrie.cs" t="Include" />
+          </e>
+          <e p="SharedValues.cs" t="Include" />
+          <e p="Systems" t="Include">
+            <e p="CleanUpSystems" t="Include">
+              <e p="MatrixCreatorSystem.cs" t="Include" />
+              <e p="OutOfRangeSystem.cs" t="Include" />
+            </e>
+            <e p="ExecuteSystems" t="Include">
+              <e p="ColumnMoveSystem.cs" t="Include" />
+              <e p="InterpolationSystem.cs" t="Include" />
+              <e p="PositionSetterSystem.cs" t="Include" />
+            </e>
+            <e p="InitializeSystems" t="Include">
+              <e p="InitSlotMachineSystem.cs" t="Include" />
+            </e>
+            <e p="ReactiveSystems" t="Include">
+              <e p="AddViewSystem.cs" t="Include" />
+              <e p="PositionTranslatorSystem.cs" t="Include" />
+              <e p="TypeGeneratorSystem.cs" t="Include" />
+              <e p="ViewSetterSystem.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TestTries.cs" t="Include" />
+        </e>
+        <e p="Sources" t="Include">
+          <e p="Generated" t="Include">
+            <e p="Contexts.cs" t="Include" />
+            <e p="Feature.cs" t="Include" />
+            <e p="Game" t="Include">
+              <e p="Components" t="Include">
+                <e p="GameCanvasPositionComponent.cs" t="Include" />
+                <e p="GameDestroyedComponent.cs" t="Include" />
+                <e p="GameGridPositionComponent.cs" t="Include" />
+                <e p="GameInterpolationCompleteComponent.cs" t="Include" />
+                <e p="GameItemIdComponent.cs" t="Include" />
+                <e p="GameMoveCompleteComponent.cs" t="Include" />
+                <e p="GameMoveHelperComponent.cs" t="Include" />
+                <e p="GameOnMoveComponent.cs" t="Include" />
+                <e p="GameOutOfRangeComponent.cs" t="Include" />
+                <e p="GamePayLinesComponent.cs" t="Include" />
+                <e p="GamePayLinesTriesComponent.cs" t="Include" />
+                <e p="GameSharedValComponent.cs" t="Include" />
+                <e p="GameTestingComponent.cs" t="Include" />
+                <e p="GameTranslateToPositionComponent.cs" t="Include" />
+                <e p="GameTypeComponent.cs" t="Include" />
+                <e p="GameViewComponent.cs" t="Include" />
+                <e p="GameVisibleComponent.cs" t="Include" />
+              </e>
+              <e p="GameAttribute.cs" t="Include" />
+              <e p="GameComponentsLookup.cs" t="Include" />
+              <e p="GameContext.cs" t="Include" />
+              <e p="GameEntity.cs" t="Include" />
+              <e p="GameMatcher.cs" t="Include" />
+            </e>
+            <e p="Input" t="Include">
+              <e p="InputAttribute.cs" t="Include" />
+              <e p="InputComponentsLookup.cs" t="Include" />
+              <e p="InputContext.cs" t="Include" />
+              <e p="InputEntity.cs" t="Include" />
+              <e p="InputMatcher.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.csproj" t="IncludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" t="IncludeRecursive" />
+      <e p="SlotMachine.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
