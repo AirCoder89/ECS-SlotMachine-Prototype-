@@ -1,4 +1,6 @@
 # SlotMachine
+Watch a demo video on [Youtube](https://www.youtube.com/watch?v=csI9D82Klvc)
+
 
 this issue may happen, so just check out if the holder reference is still exists on the Shared Values.
 
